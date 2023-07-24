@@ -1,0 +1,50 @@
+body {
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.login {
+    margin-top: 40px;
+    background-color: black;
+    width: 200px;
+    height: 350px;
+    float: left;
+    color: white;
+    margin-left: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.loginpage h1 {
+    text-align: center;
+    margin: 80px 0px 30px 0px;
+}
+
+.loginpage p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.loginpage input[type="text"],
+input[type="password"] {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+.loginpage input[type="button"] {
+    width: 190px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid red;
+    cursor: pointer;
+    margin-top: 20px;
+}

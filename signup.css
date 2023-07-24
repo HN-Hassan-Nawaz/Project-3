@@ -1,0 +1,56 @@
+body {
+    background-color: yellow;
+}
+
+.Sign {
+    margin-top: 7px;
+    background-color: rgb(116, 44, 167);
+    width: 300px;
+    height: 560px;
+    float: left;
+    color: white;
+    margin-left: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.signup-page h1 {
+    text-align: center;
+    margin: 40px 0px 50px 0px;
+}
+
+.signup-page p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.signup-page input[type="text"],
+input[type="text"] {
+    width: 290px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signup-page input[type="button"] {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+    background-color:purple;
+    border: none;
+    cursor: pointer;
+
+} 
+.signup-page  :hover[type="button"]
+{
+    transition: all 1s;
+    padding : 15px;
+}
